@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pn"
+    tools:context=".BlankFragment3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:text="@string/nombreFormulario"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_marginTop="100dp">
+
+        <EditText
+            android:id="@+id/editTextPala"
+            android:layout_width="321dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginBottom="150dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/nombreTextView"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#999999"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextCantidad"
+            android:layout_width="315dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="200dp"
+            android:ems="10"
+            android:hint="@string/nombreNumberview"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColorHint="#999999"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="200dp"
+            android:backgroundTint="#C62828"
+            android:text="@string/nombreButton" />
+
+    </FrameLayout>
+</FrameLayout>

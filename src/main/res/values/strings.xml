@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">fragmentacionTabletLayout</string>
+    <string name="nombreFragmento1">Inicio</string>
+    <string name="nombreFragmento2">Frag2</string>
+    <string name="nombreFragmento3">Frag3</string>
+    <string name="nombreFragmento4">Frag4</string>
+    <string name="mensajeInicio">Bienvenido a padel nuestro</string>
+    <string name="tituloApp">Galeria de Imagenes</string>
+    <string name="descripcionFotos">Foto de una pala de padel</string>
+    <string name="nombreFormulario">Formulario Compra</string>
+    <string name="nombreTextView">Introduzca la pala a comprar</string>
+    <string name="nombreNumberview">Introduzca la cantidad</string>
+    <string name="nombreButton">PAGAR!!!</string>
+    <string name="nombreF4">Detalles Compra</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

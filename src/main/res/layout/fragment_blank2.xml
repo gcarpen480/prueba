@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pn"
+    tools:context=".BlankFragment2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="@string/tituloApp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:layout_marginTop="90dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutAbajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutArriba">
+
+        <TableRow
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="1dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto2" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="1dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto4" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto5" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto6" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="100dp"
+            android:layout_height="167dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="1dp">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto7" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:layout_marginEnd="15dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto8" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:contentDescription="@string/descripcionFotos"
+                app:srcCompat="@drawable/foto9" />
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>
